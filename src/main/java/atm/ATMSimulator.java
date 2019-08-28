@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
-   A text-based simulation of an automatic teller machine.
+ A text-based simulation of an automatic teller machine.
  */
 public class ATMSimulator {
 
@@ -63,8 +63,8 @@ public class ATMSimulator {
 				else if (command.equalsIgnoreCase("E"))
 					System.exit(0);
 				else
-					System.out.println("Illegal input!");                                    
-			}         
+					System.out.println("Illegal input!");
+			}
 		}
 	}
 }
